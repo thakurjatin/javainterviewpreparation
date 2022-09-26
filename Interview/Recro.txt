@@ -1,0 +1,102 @@
+interface A { 
+default demo() { }
+ }
+interface B { 
+default demo() { } 
+}
+class C implements A, B { }
+
+
+String str = "interview";
+String strNew = str;
+str.concat("round1");
+sout(str)
+sout(strNew)
+
+
+class Main {
+    public static void main(String args[]) {
+        A a = new A(5);
+    }
+}
+class B{
+    B(){
+        System.out.println(" Welcome to Class B ");
+    }
+}
+class A extends B{
+    A(){
+        System.out.println(" Welcome to Class A ");
+    }
+    A(int x){
+        this();
+        super();
+        System.out.println(" Welcome to Class A 2");
+    }
+}
+
+output: 
+Welcome to Class A 
+Welcome to Class B
+Welcome to Class A 2
+
+
+WAP to reverse a string without reversing special characters
+Input:   str = "Ab,c,de!$"
+Output:  str = "ed,c,bA!$"
+
+
+str.
+StringBuilder str1 = new StringBuilder();
+char[] c = str.toCharArray();
+for(int i = c.length -1; i> 0; i--)
+{
+if(c[i] == $ || c[i] == ! || c[i] == ,)
+{
+str1[i] = c[i]; 
+}else
+{
+str1 = str1 + c[i];
+}
+
+
+Product_details
+product_id
+product_price
+product_tag
+
+
+Product_discount
+product_id
+brand
+Discount
+Select product_tag having maximum discount
+
+Select product_tag FROM Product_details INNER JOIN Discount FROM Product_discount WHERE Discount.MAXVALUE  
+
+
+swagger
+http codes
+http functions
+JPA repo and CRUD repo
+indexing in sql
+primary key and forein key
+Joins and ACID pro
+overload and override static method
+static vs final
+oops 4 concept in details
+abstraction vs interface
+collections used in multithreaded env
+Bean creating ways
+product-consumer microservices
+main concept of microservies
+dificulties in microservices
+Design Patterns
+Restlessness in API
+
+
+
+
+
+
+

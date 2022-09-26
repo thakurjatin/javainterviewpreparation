@@ -1,0 +1,27 @@
+[3:40 PM] Ranjan, Raj
+    try{​    
+    int a[]=new int[5];    
+    a[5]=30/0;    
+   }​    
+   catch(Exception e){​System.out.println("common task completed");}​    
+   catch(ArithmeticException e){​System.out.println("task1 is completed");}​    
+   catch(ArrayIndexOutOfBoundsException e){​System.out.println("task 2 completed");}​  
+​[3:41 PM] Ranjan, Raj
+    class Adder{​  
+static int add(int a,int b){​return a+b;}​  
+static double add(int a,int b){​return a+b;}​  
+}​  
+class TestOverloading3{​  
+public static void main(String[] args){​  
+System.out.println(Adder.add(11,11));  
+}​}​
+​[3:43 PM] Ranjan, Raj
+    class OverloadingCalculation3{​  
+  void sum(int a,long b){​System.out.println("a method invoked");}​  
+  void sum(long a,int b){​System.out.println("b method invoked");}​  
+  
+  public static void main(String args[]){​  
+  OverloadingCalculation3 obj=new OverloadingCalculation3();  
+  obj.sum(20,20);y  
+  }​  
+}​

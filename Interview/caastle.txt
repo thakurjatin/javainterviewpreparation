@@ -1,0 +1,29 @@
+w= 50
+weight array
+value array
+  
+0-1 knpsack problem
+
+w[0]<50
+w[0] + w[1] <50
+w[0] + w[2] + w[1] < 50
+yes
+then check 
+temp =  v[0] + v[1] + v[2]
+using loop:
+
+int weightNum = 
+int checkValue = 50
+for(int i=; i<weight.length; i++)
+{
+	if(w[0]<checkValue){
+	for(int j=0; j<value.length; j++){
+	int temp = 
+
+}
+}
+
+
+}
+
+equilibrium index of an array 

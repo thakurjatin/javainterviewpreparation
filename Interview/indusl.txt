@@ -1,0 +1,11 @@
+web.xml files have production and dev amd QA setup change data 
+need to know how to move to each other env without adding code.
+
+int i = 20;
+syso(i-- - --1)
+
+static public void main(String[] args)
+
+thread pooling
+Java8 features used in project explain
+

@@ -1,0 +1,22 @@
+return listOfBallots.stream().collect(Collectors.groupingBy(Object::toString, Collectors.counting())).
+        entrySet().stream().filter((e) -> e.getValue() >= listOfBallots.size() / 2 +1).
+        map(Map.Entry::getKey).findFirst().orElse(null);
+
+
+
+import java.util.List;
+import java.util.Map;
+import java.util.stream.Collectors;
+public class BallotsCounter {
+
+    public static String getWinner(final List<String> listOfBallots) {
+      return listOfBallots.stream().collect(Collectors.groupingBy(Object::toString, Collectors.counting())).
+        entrySet().stream().filter((e) -> e.getValue() >= listOfBallots.size() / 2 +1).
+        map(Map.Entry::getKey).findFirst().orElse(null);
+    }
+}
+
+
+
+https://www.codewars.com/kata/5bc7bb444be9774f100000c3/train/java  [Versions Manager]
+https://www.codewars.com/kata/554910d77a3582bbe300009c/train/java  [Who won the election]

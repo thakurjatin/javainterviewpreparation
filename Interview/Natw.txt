@@ -1,0 +1,18 @@
+Singelton onj = Sineltion.instance();
+
+Class Singelton {
+
+Singelton instanceinitial = null;
+
+Private Singelton(){
+ String a = "Jatin Thakur"
+}
+
+public static Singelton Instance(){
+
+if(instanceinitial == null)
+instanceinitial = new Singelton ();
+
+return instanceinitial ;
+}
+

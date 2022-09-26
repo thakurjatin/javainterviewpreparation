@@ -1,0 +1,155 @@
+Given an array of integers A and an integer B, find and return the maximum value K such that there is no subarray in A of size K 
+with the sum of elements greater than B. 
+Sample input: [1, 2, 3, 4, 5], 10 => 2
+n-1
+n-2
+n-3
+
+int[] A = [1,2,3,4,5]
+int num = 10;
+find k?
+find subarray?
+sum of all subarray elements?
+
+
+for(int i=0; i<A.length; i++)
+{
+
+if(A[i] > num)
+return ;
+if(A[i] < num){
+findSubArray(A);
+
+}
+public findSubArray(int [] array){
+
+ArrayList<Integer> list1 = new ArrayList<Integer>();
+
+}
+
+
+Given a string "columnTitle" that represents the column title as appears in an Excel sheet, return its corresponding column number.
+
+AB -> 28
+ABE -> 733
+
+A to Z == 26
+AA go till AZ(AB(28),AC,AD,AE..........AZ) need to find AB
+
+1011011 = 2.0 + 2.1 + .......
+
+for(
+
+
+
+BA go till BZ
+
+
+Stirng s;
+"AB"
+[A go till 26 ,B go till it matches B]
+int value =0;
+int minivalue = 0;
+char[] c = s.toCharArray[];
+
+[A,B]
+for(int i=0; i<c.length; i++){
+
+if(c.length > 2)
+minivalue = 26
+
+A[i] A to Z
+A[i+1] 
+
+}
+
+
+There are 36 elephants. We have a race track in which upto 6 elephants can run at a time. 
+How many minimum races do we need to be sure of 4 fastest elephants if we don't have access to clock?
+
+total = 36
+maxi = 6 
+FirstRaceWinner w1 = a1 b1 b3
+w2 = a2 
+w3 = a3
+w4 = a4
+w5 = a5
+w6 = a6
+
+first race a1 wins rest remains 35 
+
+R1 -> a1, b1, c1, d1, e1, f1
+R2 -> a2, b2, c2, d2, e2, f2
+R3 -> a3, b3, c3, d3, e3, fe
+R4 -> a4, b4, c4, d4, e4, f4
+
+
+R7 -> a1, a2, a3, a4, a5, a6 wins a1
+for 2nd position a2 and b1 
+if(a2 wins):   3rd will be(b1 or a3) if
+
+Design e-commerce application:
+Assume that 10lakh products
+product has varient like shirt has size s,m,xl,xxl
+50k seller
+discuss highlevel;
+
+
+product = 10lakh 
+	each product has 5 varient 
+
+
+5ok seller 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

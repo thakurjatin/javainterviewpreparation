@@ -1,0 +1,77 @@
+public class BaseClass{
+    private Integer myIntegerValue;
+ 
+    public void testMethod(){
+        System.out.println("Inside Test Method");
+    }
+    
+    public void showMethod(){
+        System.out.println("Inside Show Method");
+    }
+}
+ 
+public class DerivedClass extends BaseClass{
+    public void testMethod(){
+        System.out.println("inside derived test method");
+    }
+    public void showMethod(){
+        System.out.println("Inside derived show method");
+    }
+}
+
+package com.example.testpackage;
+public class Test {
+  public void foo(String s) {
+  System.out.println("String");
+  }
+  public void foo(StringBuffer sb){
+  System.out.println("StringBuffer");
+  }
+  public static void main(String[] args) {
+  new Test().foo(null);
+ }
+}
+
+
+// null
+
+
+Input String "JatinThakur"
+count of each letter 
+J:1 A:2 T:2 I:1 N:1
+
+
+String s = "JatinThakur";
+int l = s.length;
+
+List<String> list = new ArrayList<>();
+int count =0;
+for(int i=0; i<l; i++){
+	list.add(s.charAt(i));
+}
+for(k=0;k<l;k++){
+for(int j=0; j<list.size(); j++){
+	s.chatAt(k)==list[j];
+	count++;
+}
+System.out.print(count);
+}
+
+String s1 = new String("abc");
+String s2 = new String("abc");
+System.out.println(s1 == s2);  //false
+StringBuffer sb1 = new StringBuffer(s1);
+System.out.println(s1.equals(sb1)); //true
+String s3 = "abc";
+s3.intern();
+System.out.println(s1 ==s3);// true
+
+int meal = 5;
+int tip = 2;
+int total = meal + (meal>6 ? tip++ : tip--);
+total = 5+1=6
+
+
+
+
+

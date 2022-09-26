@@ -1,0 +1,32 @@
+
+1. employees class
+id,name,salary,department
+2. departmeny class
+id,name
+
+input arrlist employee
+
+output single employeee belong to "IT" department and "2nd" highest salary
+
+write logic : scenario 
+
+list<employee> list1 = new ArrayList<>();
+// list 1 contain all data need to work on that
+// use stream
+// department should be IT , salary highest
+// 
+
+list1.stream().filter(comparator(compareTo(e1,e2) -> { 
+if getdepartment() == "IT";
+if e1.getSalary() > e2.getSalary();
+})).forEach(System.out::println);
+
+
+primary key departmentID in empl table primary kay for employee
+
+emp name havibg 2 nd value
+Employee col: id,name, salary, depId (id in dpt table)
+Dept: Col: id, name
+select from employee FORN KEY depID where dept.id = "IT" and salary.MAX_VALUE;
+
+//MAX_Value

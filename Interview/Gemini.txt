@@ -1,0 +1,41 @@
+## 
+String name = "jatinthakur"  //      j    a   t  i  n
+
+Print unique char= J:1 a:2
+
+
+1. for loop till string.length
+2.
+
+for(int i=0; i < name.length; i++)
+
+int count = 0;
+
+ArrayList<Character> list = new ArrayList();
+
+char ch = name.charAt(i); // j 
+
+for(int j = 0; j< name.length; j++)
+{
+
+if(name.charAt(j) !== ch){
+continue;
+}
+count++;
+
+if(!list.contains(ch)){
+
+	if(count >= 1 && ch != "")
+	{
+	System.out.println(ch + " : " + count);
+	list.add(ch);
+	}
+}
+count = 0;
+}
+
+Table ends with a
+
+SELECT * FROM USER.NAME WHERE NAME.VALUE ENDS WITH A
+
+SELECT * FROM USER WHERE NAME = "JATIN"

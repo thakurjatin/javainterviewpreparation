@@ -1,0 +1,38 @@
+function same as Integer.parserInt();
+
+String s = "1234"
+public void parseInt(String s){
+
+int value;
+int l = s.length();
+int a = 0;
+
+for(int i=0; i<l; i++){
+ 
+ if(s.charAt(i) >= INTEGER_MIN || s.charAt(i) <= INTEGER_MAX){
+	int a = int a + s.charAt(i);
+}
+}
+
+}
+
+char []mychar = {welcome,my,name}
+
+emoclew
+
+for(int i=0; i<mychar.length; i++)
+{
+reveserArray(myChar[i]);
+}
+public reverseArray(){
+
+
+
+}
+
+String s = Array.toString(mychar);
+
+StringBuilder br = new StringBuilder;
+br = "";
+for(int i=s.length; i>0; i--)
+br = br

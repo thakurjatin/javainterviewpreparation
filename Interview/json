@@ -1,0 +1,290 @@
+be: {
+	"view": {
+		"submit": {
+			"text": "Update",
+			"type": "plain_text"
+		},
+		"callback_id": "ticket_update.C03NZC9PXL6.11088",
+		"blocks": [{
+			"optional": true,
+			"label": {
+				"text": "Status",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "status",
+			"element": {
+				"action_id": "status",
+				"options": [{
+					"text": {
+						"text": "Cancelled",
+						"type": "plain_text"
+					},
+					"value": "CANCELLED"
+				}, {
+					"text": {
+						"text": "Closed",
+						"type": "plain_text"
+					},
+					"value": "CLOSED"
+				}, {
+					"text": {
+						"text": "Edited in History",
+						"type": "plain_text"
+					},
+					"value": "HISTEDIT"
+				}, {
+					"text": {
+						"text": "In Progress",
+						"type": "plain_text"
+					},
+					"value": "INPROG"
+				}, {
+					"text": {
+						"text": "New",
+						"type": "plain_text"
+					},
+					"value": "NEW"
+				}, {
+					"text": {
+						"text": "NEWRESOLVE",
+						"type": "plain_text"
+					},
+					"value": "NEWRESOLVE"
+				}, {
+					"text": {
+						"text": "Pending",
+						"type": "plain_text"
+					},
+					"value": "PENDING"
+				}, {
+					"text": {
+						"text": "Queued",
+						"type": "plain_text"
+					},
+					"value": "QUEUED"
+				}, {
+					"text": {
+						"text": "Rejected",
+						"type": "plain_text"
+					},
+					"value": "REJECTED"
+				}, {
+					"text": {
+						"text": "Resolved",
+						"type": "plain_text"
+					},
+					"value": "RESOLVED"
+				}, {
+					"text": {
+						"text": "SLA Hold",
+						"type": "plain_text"
+					},
+					"value": "SLAHOLD"
+				}],
+				"initial_option": {
+					"text": {
+						"text": "New",
+						"type": "plain_text"
+					},
+					"value": "NEW"
+				},
+				"placeholder": {
+					"text": "Status",
+					"type": "plain_text"
+				},
+				"type": "static_select"
+			}
+		}, {
+			"optional": true,
+			"label": {
+				"text": "Owner",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "owner",
+			"element": {
+				"action_id": "owner",
+				"placeholder": {
+					"text": "Owner",
+					"type": "plain_text"
+				},
+				"type": "external_select"
+			}
+		}, {
+			"optional": true,
+			"label": {
+				"text": "Summary",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "description",
+			"element": {
+				"initial_value": "Defect SR checking",
+				"action_id": "description",
+				"type": "plain_text_input"
+			}
+		}, {
+			"optional": true,
+			"label": {
+				"text": "Impact",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "impact",
+			"element": {
+				"action_id": "impact",
+				"options": [{
+					"text": {
+						"text": "Critical",
+						"type": "plain_text"
+					},
+					"value": "1.0"
+				}, {
+					"text": {
+						"text": "High",
+						"type": "plain_text"
+					},
+					"value": "2.0"
+				}, {
+					"text": {
+						"text": "Medium",
+						"type": "plain_text"
+					},
+					"value": "3.0"
+				}, {
+					"text": {
+						"text": "Low",
+						"type": "plain_text"
+					},
+					"value": "4.0"
+				}, {
+					"text": {
+						"text": "Planning",
+						"type": "plain_text"
+					},
+					"value": "5.0"
+				}],
+				"initial_option": {
+					"text": {
+						"text": "Medium",
+						"type": "plain_text"
+					},
+					"value": "3.0"
+				},
+				"placeholder": {
+					"text": "Impact",
+					"type": "plain_text"
+				},
+				"type": "static_select"
+			}
+		}, {
+			"optional": true,
+			"label": {
+				"text": "Urgency",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "urgency",
+			"element": {
+				"action_id": "urgency",
+				"options": [{
+					"text": {
+						"text": "Critical",
+						"type": "plain_text"
+					},
+					"value": "1.0"
+				}, {
+					"text": {
+						"text": "High",
+						"type": "plain_text"
+					},
+					"value": "2.0"
+				}, {
+					"text": {
+						"text": "Medium",
+						"type": "plain_text"
+					},
+					"value": "3.0"
+				}, {
+					"text": {
+						"text": "Low",
+						"type": "plain_text"
+					},
+					"value": "4.0"
+				}, {
+					"text": {
+						"text": "Planning",
+						"type": "plain_text"
+					},
+					"value": "5.0"
+				}],
+				"initial_option": {
+					"text": {
+						"text": "Medium",
+						"type": "plain_text"
+					},
+					"value": "3.0"
+				},
+				"placeholder": {
+					"text": "Urgency",
+					"type": "plain_text"
+				},
+				"type": "static_select"
+			}
+		}, {
+			"optional": true,
+			"label": {
+				"text": "Details",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "description_longdescription",
+			"element": {
+				"initial_value": "Defect SR checking changes",
+				"action_id": "description_longdescription",
+				"multiline": true,
+				"type": "plain_text_input"
+			}
+		}, {
+			"optional": true,
+			"label": {
+				"text": "Worklog",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "worklog",
+			"element": {
+				"initial_value": "",
+				"action_id": "worklog",
+				"type": "plain_text_input"
+			}
+		}, {
+			"optional": true,
+			"label": {
+				"text": "Worklog Details",
+				"type": "plain_text"
+			},
+			"type": "input",
+			"block_id": "worklog details",
+			"element": {
+				"initial_value": "",
+				"action_id": "worklog details",
+				"multiline": true,
+				"type": "plain_text_input"
+			}
+		}],
+		"type": "modal",
+		"title": {
+			"text": "Update Ticket 11088",
+			"type": "plain_text"
+		},
+		"close": {
+			"text": "Cancel",
+			"type": "plain_text"
+		}
+	},
+	"method": "views.update",
+	"view_id": "V03PERGN98F",
+	"token": "xoxb-3542174668657-3553340689248-zvuA2p8ODgiHo4bhiJ20vbjR"
+}

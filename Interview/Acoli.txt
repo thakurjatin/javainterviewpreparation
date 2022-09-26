@@ -1,0 +1,63 @@
+class Singelton{
+
+private Singelton obj1 = null;
+
+
+public Singelton static getInstance(){
+	if(obj == null){
+	Singelton s = new Singelton();
+	return s;
+}else {
+	r
+}
+
+public void print(){
+ System.out.println("working");
+}
+}
+}
+
+public static void main(String[] args){
+
+Singelton obj = Singelton.getInstance();
+obj.print();
+
+}
+
+name student 
+executive framework
+
+
+Program to give me pairs for sum = 90  for array 10 20 30 40 50 60 70 → output should be 20,70
+
+front and last 
+int l = array.length;
+for(int i = 0; i < array.length; i++){
+
+for(int j= array.length; j>0; j--){
+
+if(array[i] + array[j] == 90){
+
+print(array[i] + ":" + array[j])
+}
+}
+}
+array[0] + array[6];
+
+2 , 55 , 17 , 88 , 17 , 55 , 103
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

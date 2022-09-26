@@ -1,0 +1,36 @@
+(data) -> {
+System.out.println(data);
+}
+
+
+
+
+@funtionalInterface
+interface Example{
+
+	abstract void firsti()
+{
+}
+
+interface A {
+    public void m1();
+    public void m2();
+    default public void m3() {
+    }
+}
+
+class B implements A{
+
+}
+
+Class Student{
+ String name;
+String email;
+int salary;
+}
+
+list.steam().filter((student) -> {
+
+for(int
+}
+)
