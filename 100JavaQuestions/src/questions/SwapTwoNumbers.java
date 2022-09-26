@@ -1,0 +1,22 @@
+package questions;
+
+import java.util.Scanner;
+
+public class SwapTwoNumbers {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		swap(a,b);
+		System.out.println("a is :" + a + "b is :" + b);
+	}
+	
+	public static void swap(int a, int b) {
+		// a =10, b=5
+		
+		b = b + a;
+		a = b - a;
+		b = b - a;
+	}
+}
