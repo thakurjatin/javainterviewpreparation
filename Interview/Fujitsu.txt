@@ -1,0 +1,20 @@
+//create map emloyee object 
+
+Map<Employee> map1 = new HashMap<>();
+
+ Employeee obj1 = new Employee();
+
+map1.put("xyz", obj1);
+obj1 = null;
+map1.put("pqr", obj1);
+map1.get(
+
+//
+List<String> list = Arrays.asList(x,y,z,p,q,r,x,y,z);
+// remove duplicate stream
+
+List<String> answer = list.stream().filter(e -> e.getName()).collect(Collectors. ,Collectors.toList); 
+answer.forEach(System.out::println);
+
+
+PICD

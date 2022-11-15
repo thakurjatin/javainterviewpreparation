@@ -1,0 +1,41 @@
+//value = name
+//priority = age
+
+//adding and removing
+
+// priority queue
+
+
+Public class Node {
+
+	int age;
+	String name;
+	Node(int age, String name){
+	this.age = age;
+	this.name = name;
+}
+
+}
+
+
+public class QueueUsingLL<T>{
+
+node<T> front;
+node<T> rear;
+int size;
+
+void adding( Node element){
+	Node newNode = new Node(element)
+	if(rear == null){
+front = newNode;
+rear = newNode;
+}
+else{
+	rear.next =n
+
+}
+
+}
+
+}
+

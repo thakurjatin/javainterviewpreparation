@@ -1,0 +1,70 @@
+
+@controller
+public void function()
+{
+	
+
+}
+
+
+salary > 10k
+employee list name emp;
+list<employee> list1 = emp.stream.filter((salary) -> getSalary().).collect(collector.toList());
+list1.forEach(System::println);
+
+class example{
+	
+	int a = 10;
+	int b = 20;
+	example(int a, int b){
+	this.a = a;
+	this.b = b;
+}
+	public int sum(int a, int b){
+		return a + b;
+}
+
+
+}
+class exp1 extends example{
+	
+-	int c = 20;
+	int d = 20;
+	
+	exp1(int c, int d){
+	this.c = c;
+	this.d = d;
+}
+	
+	public int sum(int c, int d){
+	super(c,d);
+	return c + d;
+}
+
+}
+
+
+Map<String, Integer> cmap = new ConcurentHashMap<>();
+
+cmap.put("jatin", 1);
+cmap.put("rahul", 2);
+cmap.put("jason", 3);
+
+cmap<Entry.set<String, Integer>> entry = cmap.entrySet();
+
+for(String name: entry){
+
+	System.out.println("Name" + getKey(name));
+}
+for(Integer value: entry){
+	
+}
+
+
+
+
+
+
+
+
+

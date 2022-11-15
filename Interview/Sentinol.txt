@@ -1,0 +1,94 @@
+// slack fetaure
+
+
+
+Multi user with same ticket 
+
+
+@RestController
+Controller class{
+
+@Autowired
+Service s1;
+
+@PostMapping("/data1")
+
+public s1 addingData(@RequestBody data dat1){
+	return this.Service.addData();
+}
+
+}
+
+@Service
+class Service{
+
+	List data = new ArrayList();
+	@Override
+	public addingData(data data1 ){
+
+	data.add(data1);
+}
+}
+
+Entity
+
+@ID
+@Column
+
+Dao interface 
+application.properties
+
+
+
+
+// LinkedList
+
+class Node {
+
+
+int data;
+Node next;
+
+Node(int data){
+	this.data = data;
+	next = null;
+}
+
+}
+
+class LinkedList{
+
+public staic Node deleteNode(Node headNode, int data){
+
+	Node temp;
+	temp = headNode;
+	temp1 = heasNode;
+
+	if(temp == null)
+	return;
+
+	if(temp.data = data){
+		temp1 = temp1.next;
+		headNode = temp1;
+		return headNode
+}
+
+	if(temp != null && temp.data != data)
+	
+	
+
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

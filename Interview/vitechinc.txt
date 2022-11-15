@@ -1,0 +1,14 @@
+1. Singleton class
+2. Private constructor
+3. extend singleton class
+4. multithread singleton 
+5. employee class object e1 and e2 with first name, last name, emp id, how to use hashmap in this case and overide 
+equals and hashcode method.
+6. Arr[] = {1,2,3,5,6,7} N=10 Print missing elements output : 4,8,9,10
+7. interface temp{}
+class one implements temp {}
+class two implements temp{}
+make sure only class instance is created when use springboot
+
+=== vs ==
+8. Immutable class

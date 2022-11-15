@@ -1,0 +1,20 @@
+class Employee{
+
+	private Employee instance;
+	private Employee();
+	public Employee getInstance(){
+
+	if(instance == null){
+	instance = new Employee();
+}
+	return instance;
+}
+}
+
+transient
+interceptor
+volatile
+filters
+transitions
+predicate functions
+SOLID

@@ -1,0 +1,81 @@
+Builder Design Pattern
+
+class Vehicle {
+
+	// require parameter
+	private int speed;
+	private String engine;
+
+	// optional parameter
+	private int airbag;
+
+	
+
+	
+}
+
+You are given a string, reverse the order in which the words appear
+	Input: str = “are.given.a.string.and.a.separator”
+	output: “separator.a.and.string.a.given.are”
+
+
+public String reverse(Strins S){
+
+String reverse ="";
+char[] ch = String.tocharArray(S);
+
+for(int i=0; i<S.length; i++){
+
+	if(ch[i] != "."){
+	push
+}
+
+}
+}
+Given an list of strings, group all the strings that are anagrams and then print the resulting list.
+Input = {“cat”, “dog”, ”hello”, ”act”, “god”, “tac”}
+Output = {“cat”, “act”, “tac”, “dog”, “god”, “hello”}
+
+
+for(String atr : Input)
+Map<String, List<String>> hmap = new HashMap<>();
+
+for(int i=0; i<Imput.length; i++)
+{
+
+	if(hmap.containsKey(Input[i])
+	hmap.put(
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

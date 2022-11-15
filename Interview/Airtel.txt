@@ -1,0 +1,52 @@
+HashMap<String,String> map =new HashMap();
+System.out.println(map.put("abc","ashish"));
+System.out.println(map.put("def","ashish"));    
+System.out.println(map.put("abc","def"));
+System.out.println(map.put("abc","def"));
+
+what is system out and println
+hash map and identity map
+
+return type of put and add method
+
+
+abc, def
+def, ashish
+
+TreeSet<StringBuffer> s1 =new TreeSet();
+comparable and comparator    
+s1.add(new StringBuffer("A"));
+s1.add(new StringBuffer("C"));
+s1.add(new StringBuffer("B"));
+s1.add(new StringBuffer("Z"));
+
+output: 
+A
+B
+C
+Z
+
+why treeset comes in natural order? comparable and comparator difference and condition
+Exception hierarchy ? error throwable expalain
+
+
+
+class deadlock{
+
+	int a = 6;
+	int b = 5;
+	int c = 8;
+	public int functionA(int a, int b){
+	
+	functionB(a,b);
+	return a + b;
+	
+	}
+	public int functionB(int a, int c){
+
+	functionA(a,c)
+	return a * c;
+
+	}
+
+}

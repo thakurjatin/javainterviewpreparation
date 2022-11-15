@@ -1,0 +1,96 @@
+// list of string
+// display string conatin more than 4 char
+
+jatin, jocky, ram, aunil, sumit, john
+
+output: jatin,jocky,aunil,sumit
+
+list1.stream().filter(n -> n.length() == 5).forEach(System.out::println);
+
+list1.stream().filter(n -> {
+
+if(n.length() > 4) {
+   
+}
+
+}).forEach(System.out::println);
+
+
+String s = "acabbd"
+first non-repetive char
+out: c 
+
+int count = 0;
+List<Integer> finalList = new ArrayList<>();
+for(int i=0; i<s.length(); i++)
+{
+
+char[] c = String.toCharArray(s);
+
+// {a,c,a,b,b,d}
+// a  c a b b d
+
+for(int i=0; i<s.length(); i++){
+	
+	if(s.charAt(i) == ch[i]){
+	continue;}
+count++;
+	
+} 
+while(count>1){
+	
+	if(finalList.contains
+
+}
+
+}
+
+
+
+char[] c = String.toCharArray(s);
+
+// hashmap or hashset
+
+Set<Charcter> ch = new LinkedHashSet<>();
+
+for(Char s : c){
+	ch.add(s);
+}
+
+// a,c,b,d
+// or LinkedHashSet
+
+System.out.println(ch.get(1));
+
+
+collections: List(ArrayList,,Set,
+
+ay3b2  == 
+
+	collection hirarchy
+sort 0's and 1's 
+int [] a = {1,0,1,1,0,1,0};
+
+// sorting algo
+for(int i=0; i<n.length; i++){
+	
+	for(int j=0; j<n.length-i-1; j++){
+		if(a[j]>a[j+1]){
+
+		int temp = a[j];
+		a[j] = a[j+1];
+		a[j+1] = temp;
+
+} 
+
+}
+
+
+}
+
+
+
+
+
+
+

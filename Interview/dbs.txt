@@ -1,0 +1,18 @@
+// method overloding
+
+class Name {
+
+int a = 10;
+int b = 20;
+int c = 30;	
+ public int Age( int a, int b ){
+   return a + b;
+}
+
+ public int Age(int a, int b, int c){
+	return a + b + c;
+}
+
+}
+repaint()
+java RMI

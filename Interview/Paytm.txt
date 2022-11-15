@@ -1,0 +1,78 @@
+Create API end to end 
+
+
+Controller
+Service
+Entity
+
+
+
+employee post and get for post json format
+
+
+@RestController
+Class Employee{
+
+// get and post
+
+@Autowired
+public ServiceClass service;
+
+@GetMapping{"/employee"}
+public List<Employee> getData(){
+
+return this.service.getData();
+
+}
+
+@POSTMapping{"/employee1"}
+public Employee postData(){
+
+	return this.service.postData();
+
+}
+
+}
+
+// Entity
+
+// Service Layer
+@Service
+class ServiceClass{
+
+List<Employee> list;
+
+public ServiceClass(){
+
+list = new ArrayList<>();
+list.add(new Employee(1, "jatin"));
+
+}
+
+public List<Employee> getData(){
+
+	return list;
+
+}
+public Employee postData(Employee Name){
+
+
+
+}
+
+//Employee class name , age name of all employess age > 25
+
+
+
+List<String> namesEmployee = list.stream().filter(e -> e.getAge() > 25).map(e -> e.getName()).collect(Collectors.toList);
+namesEmployee.forEach(System.out::println);
+
+
+
+
+
+
+
+
+
+}
